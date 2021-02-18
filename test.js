@@ -1,3 +1,4 @@
+/** 生成范围随机数Min生成范围最小值,Max生成范围最大值 **/
 function RandomNum(Min, Max) {
   var Range = Max - Min;
   var Rand = Math.random();
