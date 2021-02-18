@@ -24,7 +24,7 @@ function RandomArr(len, min, max) {
 }
 /** 数组排序 **/
 function sort(targetArr){
-  return JSON.parse(JSON.stringify(testArr)).sort((a,b)=>a-b)
+  return JSON.parse(JSON.stringify(targetArr)).sort((a,b)=>a-b)
 }
 const testNum = RandomNum(1,100000)
 const testArr = RandomArr(100,1,100000)
